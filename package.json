@@ -2,15 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "api/index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "node api/index.js"
+    "dev": "vercel dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "Backend para Taskback desplegado en Vercel",
   "dependencies": {
     "@supabase/supabase-js": "^2.56.0",
     "cors": "^2.8.5",
@@ -21,4 +15,5 @@
     "node": "18.x"
   }
 }
+
 
