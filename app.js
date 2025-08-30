@@ -24,7 +24,7 @@ app.use("/eventos", eventos);
 app.use("/auth", authRoutes);
 
 app.get("/", (req, res) => {
-  res.send("API funcionando 🚀");
+  res.json({ message: "API funcionando 🚀" });
 });
 
 export default app;
